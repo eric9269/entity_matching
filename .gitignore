@@ -1,0 +1,30 @@
+# Ignore model weights and checkpoints
+/models/
+/checkpoints/
+
+# Ignore generated new/old model/checkpoint folders
+/new/models/
+/new/checkpoints/
+/old/models/
+/old/checkpoints/
+
+# Common large or binary files
+*.safetensors
+*.pt
+*.bin
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs and tensorboard
+events.out.tfevents.*
